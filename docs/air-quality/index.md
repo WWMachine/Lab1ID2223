@@ -4,14 +4,18 @@
 
 {% include air-quality.html %}
 
-![Forecast](./assets/img/pm25_forecast.png)
+{% assign names = "anan_nakagawacho_kuroji,jinryo_main_street,kitajima_tainohama,mima_wakimachi_oaza_inoshiri,miyoshi_ikedacho_machi,naruto_muyacho_tateiwa,nishinoji_main_street,tokushima_shinkuracho" | split: ',' %}
 
+{% for name in names %}
+### {{ name | capitalize }} Air Quality
 
-There is also a Python program to interact with the air quality ML system using language (text, voice),
-powered by a [function-calling LLM](https://www.hopsworks.ai/dictionary/function-calling-with-llms).
+![Forecast](./assets/img/pm25_forecast_{{ name }}.png)
 
 # Model Performance Monitoring
 
 1-Day Hindcast: Predictions vs Outcomes
 
-![Hindcast](./assets/img/pm25_hindcast_1day.png)
+![Hindcast](./assets/img/pm25_hindcast_1day_{{ name }}.png)
+
+{% endfor %}
+
