@@ -1,6 +1,6 @@
 # Lab 1 (Air-Quality Prediction using XGBoost Model)
 
-This Lab was completed by Nils Wiebe Werner and Oliver Westfahl Knezevic.
+This Lab was completed by Nils Wiebe Werner and Oliver Westfahl Knezevic in the group "The Lopen's Ganchos".
 
 We have implemented all 7 steps of the assignment. The version available in the repo is the final version that fulfills the A extension.  
 
