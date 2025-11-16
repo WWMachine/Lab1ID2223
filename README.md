@@ -1,4 +1,4 @@
-# Lab 1 (Air-Quality Prediction using XGBoost)
+# Lab 1 (Air-Quality Prediction using XGBoost Model)
 
 This Lab was completed by Nils Wiebe Werner and Oliver Westfahl Knezevic.
 
