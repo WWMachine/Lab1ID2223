@@ -29,7 +29,7 @@ The model got an MSE value of 164.34091 and r2 of 0.2520640155696643
 
 We can see that including the information of pm2.5 data for previous days has a significant improvement in the model quality. Most likely because pm2.5 is a time-dependent on the trend of pm2.5 of the days before. 
 
-The final dashboard (showing predictions for the stations in Toyohashi, Japan) can be viewed here [Dashboard for CITY](https://wwmachine.github.io/Lab1ID2223/)
+The final dashboard (showing predictions for the stations in Toyohashi, Japan) can be viewed here [Dashboard for Tokushima Prefecture](https://wwmachine.github.io/Lab1ID2223/)
 
 
 
